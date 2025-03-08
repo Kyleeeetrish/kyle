@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header class="header-container">
+        <div class="header">EPSON</div>
+        <div class="user-name">Kyle Razsile Macauba</div>
+    </header>
+
+    <h2>Transaction Details</h2>
+
+    <div class="transaction-form">
+        <label for="lineStation">Line Station</label>
+        <input type="text" id="lineStation" placeholder="Enter Line Station">
+
+        <label for="rfid">RFID Number</label>
+        <input type="text" id="rfid" placeholder="Enter RFID Number">
+
+        <label for="lotNumber">Lot Number</label>
+        <input type="text" id="lotNumber" placeholder="Enter Lot Number">
+
+        <label for="remarks">Remarks</label>
+        <input type="text" id="remarks" placeholder="Enter Remarks">
+
+        <button onclick="validateTransaction()">Submit</button>
+    </div>
+
+    <div class="message-bar" id="messageBar"></div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
